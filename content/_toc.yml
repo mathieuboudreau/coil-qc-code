@@ -4,4 +4,4 @@
 format: jb-book
 root: intro.md
 chapters:
-- file: test.ipynb
+- file: ../executed_notebooks/test.ipynb
