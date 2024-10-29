@@ -2,6 +2,6 @@
 # Learn more at https://jupyterbook.org/customize/toc.html
 
 format: jb-book
-root: coil-qc-code
+root: intro.md
 chapters:
-- file: content/data_processing-human.ipynb
+- file: data_processing-human.ipynb
