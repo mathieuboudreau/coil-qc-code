@@ -1,2 +1,5 @@
 
-data
+data-human/
+data-phantom/
+.DS_Store
+.ipynb_checkpoints/
