@@ -1,3 +1,0 @@
-git clone --depth 1 https://github.com/spinalcordtoolbox/spinalcordtoolbox.git
-yes | spinalcordtoolbox/install_sct
-cat ~/.bashrc | grep "export SCT_DIR" | cut -d " " -f 2 >> $GITHUB_ENV
