@@ -1,5 +1,9 @@
 jupyter-book==0.13.0
 lxml_html_clean
+sphinxcontrib-applehelp==1.0.4
+sphinxcontrib-devhelp==1.0.2 
+sphinxcontrib-htmlhelp==2.0.1
+sphinxcontrib-qthelp==1.0.3
 plotly
 seaborn
 markdown
