@@ -5,6 +5,10 @@ on:
     branches:
       - main  # Trigger the action on the main branch
 
+permissions:
+  id-token: write
+  pages: write
+
 jobs:
   # First job: Clear outputs with nbstripout
   clear-outputs:
