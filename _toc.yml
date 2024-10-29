@@ -4,4 +4,5 @@
 format: jb-book
 root: README.md
 chapters:
-- file: executed_notebooks/test.ipynb
+- file: executed_notebooks/data_processing-human.ipynb
+- file: executed_notebooks/data_processing-phantom.ipynb
