@@ -79,11 +79,11 @@ jobs:
               2>&1 | tee -a notebook_execution.log || exit 1
           done
           pwd
-          ls content/executed_notebooks/
+          ls executed_notebooks/
       - name: Check Execution Log
         run: cat notebook_execution.log
       - name: Build HTML Assets
-        run: jupyter-book build ./content/
+        run: jupyter-book build .
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
