@@ -4,5 +4,4 @@
 format: jb-book
 root: intro.md
 chapters:
-- file: data_processing-human.ipynb
-- file: data_processing-phantom.ipynb
+- file: test.ipynb
