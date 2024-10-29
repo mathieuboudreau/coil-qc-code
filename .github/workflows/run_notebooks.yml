@@ -91,15 +91,8 @@ jobs:
               --output executed_notebooks/$(basename $notebook) $notebook \
               2>&1 | tee -a notebook_execution.log || exit 1
           done
-
       - name: Check Execution Log
         run: cat notebook_execution.log
-
-      - name: Upload Executed Notebooks
-        uses: actions/upload-artifact@v3
-        with:
-          name: executed-notebooks
-          path: executed_notebooks/
       - name: Build HTML Assets
         run: jupyter-book build ./content/
       - name: Upload artifact

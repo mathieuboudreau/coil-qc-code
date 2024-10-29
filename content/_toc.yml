@@ -5,4 +5,3 @@ format: jb-book
 root: coil-qc-code
 chapters:
 - file: content/data_processing-human.ipynb
-- file: content/data_processing-phantom.ipynb
