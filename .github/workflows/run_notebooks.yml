@@ -79,7 +79,7 @@ jobs:
               2>&1 | tee -a notebook_execution.log || exit 1
           done
           pwd
-          ls executed_notebooks
+          ls
       - name: Check Execution Log
         run: cat notebook_execution.log
       - name: Build HTML Assets
