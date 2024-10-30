@@ -6,7 +6,7 @@ title: coil-qc-code
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
 execute:
-  execute_notebooks: 'off'
+  execute_notebooks: off
 
 launch_buttons:
   notebook_interface: "jupyterlab"
@@ -21,3 +21,6 @@ only_build_toc_files: true
 execute:
   timeout: 36000
 
+
+config:
+    nb_execution_mode: off
